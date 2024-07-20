@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleUser, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faCircleUser, faBars, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Shmooz from "../../assets/images/Shmooz-Logo.png";
 import "./Navbar.css";
 
@@ -25,10 +25,9 @@ const Navbar = () => {
                         <li className="menu-item">
                             <a href="#!" className="menu-link">For Business</a>
                         </li>
-                        <li className="menu-item">
-                            <a href="#!" className="menu-link user-icon">
-                                <FontAwesomeIcon icon={faCircleUser} />
-                            </a>
+                        <li className="menu-item icons">
+                            <FontAwesomeIcon icon={faCircleUser} className=' user-icon-1'/>
+                            <FontAwesomeIcon icon={faChevronDown} className='user-icon-2' />
                         </li>
                     </ul>
                 </div>

@@ -10,14 +10,14 @@ import Why from "./components/Why/Why";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <Cta name="Join us" transparent /> */}
-      {/* <AboutEvent /> */}
+      <AboutEvent />
       <Works />
-      {/* <Why /> */}
+      <Why />
       {/* <Steps /> */}
-      {/* <Feedback /> */}
-      {/* <Footer /> */}
+      <Feedback />
+      <Footer />
 
     </>
   );

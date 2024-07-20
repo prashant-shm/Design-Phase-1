@@ -26,4 +26,3 @@ Steps.defaultProps = {
 };
 
 export default Steps;
-// ss

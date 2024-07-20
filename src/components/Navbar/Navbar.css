@@ -39,9 +39,21 @@
     line-height: 25px;
 }
 
-.user-icon {
+.icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.user-icon-1 {
     font-size: 2rem;
     color: #4cc9f0;
+}
+
+.user-icon-2{
+    font-size: 1.2rem;
+    color: #f8a21e;
 }
 
 .navbar-toggle {

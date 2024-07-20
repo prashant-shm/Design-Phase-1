@@ -1,10 +1,16 @@
 .footer {
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     background-color: #11203A;
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
+    flex-direction: column;
     padding: 30px;
+}
+
+.footer-data{
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-logo>img {
@@ -42,4 +48,10 @@
 .icon{
     color: #F8A21E;
     font-size: 1.6rem;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
