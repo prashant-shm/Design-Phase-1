@@ -1,0 +1,17 @@
+.about-event {
+    width: 100%;
+    height: auto;
+    background-color: rgba(248, 162, 30, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2%;
+}
+
+.about-event-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

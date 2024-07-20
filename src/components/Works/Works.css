@@ -1,0 +1,29 @@
+.works-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: rgba(38, 193, 232, 0.3);
+}
+
+.works-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.works-btns {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.works-steps-container {
+    display: flex;
+    gap: 25px;
+}
